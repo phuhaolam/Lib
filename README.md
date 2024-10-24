@@ -55,3 +55,12 @@
     <artifactId>spring-boot-starter-security</artifactId>
 </dependency>
 ```
+
+## Delete Database in SQL Server
+
+```xml
+ALTER DATABASE 'Database Name'
+SET SINGLE_USER
+WITH ROLLBACK IMMEDIATE;
+DROP DATABASE 'Database Name';
+```

@@ -59,8 +59,8 @@
 ## Delete Database in SQL Server
 
 ```xml
-ALTER DATABASE 'Database Name'
+ALTER DATABASE databaseName
 SET SINGLE_USER
 WITH ROLLBACK IMMEDIATE;
-DROP DATABASE 'Database Name';
+DROP DATABASE databaseName;
 ```
